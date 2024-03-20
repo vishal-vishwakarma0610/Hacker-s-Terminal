@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container{
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 4px solid green;
+    height: 98vh;
+    width: 98vw;
+}
+.container .box p{
+    font-size: large;
+    color: green;
+    font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: none; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none; 
+  }
+
+@media screen and (max-width: 700) {
+  body{
+    height: 100%;
+  }
+}
